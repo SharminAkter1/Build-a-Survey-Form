@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:1.2rem;
+ 
+}
+.content{
+
+  background: url(https://www.ecmwf.int/sites/default/files/esowc-coding-group-690_0.jpg) no-repeat center center/cover;
+  color:#ffffff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+}
+
+#main {
+ background-color: rgb(10, 101, 104);
+ padding: 2rem 3rem;
+ margin-top: 1.4rem;
+ margin-bottom: 1.4rem ;
+ margin-left: 18rem;
+ margin-right: 18rem;
+}
+#header {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#discription p {
+  font-size: 1.18rem;
+  padding-top: 0.5rem;
+}
+
+#form-group{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+#main input, textarea, select{
+  padding: 0.7rem;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0.5rem 0;
+}
+
+#main textarea{
+  padding: 2rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: rgb(212, 177, 199);
+}
